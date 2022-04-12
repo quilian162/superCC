@@ -59,8 +59,8 @@ produtos[]
 carregarprod(produtos)
 insereprod(produtos)                  
 armzprod(produtos)
-x = 'Sim'
-while x == 'Sim':
+x = 'SIM'
+while x == 'SIM':
   total=0
   cod=int(input('Código: '))
   while cod!=0
@@ -76,4 +76,4 @@ while x == 'Sim':
       print('R$ {:.2f} , Valor Parcial: R$ {:.2f} '.format(psr,total))
     cod=int(input('Código: '))
   print('Valor final: %.2f'%total)
-  x=input('Continuar? (X(sim)/Y(nao): ').upper()
+  x=input('Continuar? (sim)/(nao): ').upper()
